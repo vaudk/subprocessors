@@ -4,11 +4,11 @@ _Links checked: 2026-10-29. Research notes, not legal advice; have DPO/legal rev
 
 ## Summary
 
-- Nine of the twelve providers publish all their key legal and compliance documents.
+- Ten of the thirteen providers publish all their key legal and compliance documents.
 - **Staan** publishes no terms of service, DPA, trust center or change notices. Those are only available at sign-up or on request.
 - **Linkup** has no public DPA text (signable via DocuSign), no SCCs, no legal notice and no change notices. By default it processes queries in the US, EU, Canada and APAC.
 - **Black Forest Labs** publishes no DPA ("available on request") and no change notices. Its self-serve terms let it train on our inputs and outputs.
-- Details for each provider are in its note, under "Key documents": [anthropic.md](anthropic.md), [aws.md](aws.md), [black-forest-labs.md](black-forest-labs.md), [azure.md](azure.md), [google-cloud.md](google-cloud.md), [hetzner.md](hetzner.md), [linkup.md](linkup.md), [mailjet.md](mailjet.md), [mistral.md](mistral.md), [openai.md](openai.md), [scaleway.md](scaleway.md), [staan.md](staan.md).
+- Details for each provider are in its note, under "Key documents": [anthropic.md](anthropic.md), [aws.md](aws.md), [black-forest-labs.md](black-forest-labs.md), [azure.md](azure.md), [google-cloud.md](google-cloud.md), [hetzner.md](hetzner.md), [linkup.md](linkup.md), [mailjet.md](mailjet.md), [mistral.md](mistral.md), [openai.md](openai.md), [scaleway.md](scaleway.md), [staan.md](staan.md), [verda.md](verda.md).
 
 **What the statuses mean**
 
@@ -36,6 +36,7 @@ Each status links to the official page.
 | Mistral AI | [Unverified](https://trust.mistral.ai/subprocessors) | [Public](https://legal.mistral.ai/terms/privacy-policy) | [Public](https://legal.mistral.ai/terms/commercial-terms-of-service) | [Public](https://legal.mistral.ai/terms/data-processing-addendum/) | [In DPA](https://legal.mistral.ai/terms/data-processing-addendum/) | [Unverified](https://trust.mistral.ai/) | [Public](https://mistral.ai/legal/) | [Public](https://help.mistral.ai/en/articles/455208-who-are-your-subprocessors-and-how-can-i-stay-updated-on-changes) |
 | OpenAI | [Unverified](https://openai.com/policies/sub-processor-list/) | [Unverified](https://openai.com/policies/eu-privacy-policy/) | [Public](https://cdn.openai.com/osa/openai-services-agreement.pdf) | [Public](https://cdn.openai.com/pdf/openai-data-processing-addendum.pdf) | [In DPA](https://cdn.openai.com/pdf/openai-data-processing-addendum.pdf) | [Public](https://trust.openai.com/) | [In terms](https://cdn.openai.com/osa/openai-services-agreement.pdf) | [Unverified](https://openai.com/form/subscribe-to-new-sub-processors/) |
 | Scaleway | [Unverified](https://www.scaleway.com/en/subprocessorlist/) | [Unverified](https://www.scaleway.com/en/privacy-policy/) | [Unverified](https://www-uploads.scaleway.com/Conditions_Generales_de_Services_General_Terms_of_Services_07042026_f7d4a2f613.pdf) | [Unverified](https://www-uploads.scaleway.com/DPA_2024_ENG_b0abb5cc26.pdf) | [Unverified](https://www-uploads.scaleway.com/CCT_Controller_to_Processor_0b5e47bb5c.pdf) | [Public](https://security.scaleway.com/) | [Unverified](https://www.scaleway.com/en/legal-notice/) | [Unverified](https://www.scaleway.com/en/subprocessorlist/history/) |
+| Verda | [Unverified](https://trust.verda.com/subprocessors) | [Public](https://verda.com/privacy-policy) | [Public](https://verda.com/terms-and-conditions) | [In terms](https://verda.com/terms-and-conditions) | [In terms](https://verda.com/terms-and-conditions) | [Public](https://trust.verda.com/) | None | [In terms](https://verda.com/terms-and-conditions) |
 | Staan | [In privacy policy](https://staan.ai/privacy-policy) | [Public](https://staan.ai/privacy-policy) | Not public | Not public | Not public | None | [Public](https://staan.ai/legal) | None |
 
 Scaleway shows mostly "Unverified" because its pages were not re-checked in this pass, not because they are missing. The PDFs loaded on 2026-10-28.
@@ -60,6 +61,7 @@ Staan, Black Forest Labs and Linkup have the real gaps. The rest are pages to co
 | Microsoft Azure | Two Service Trust Portal pages exist for the sub-processor list; the note now uses Microsoft's own short link (aka.ms/subprocessor) | Confirm in a browser which page is current |
 | Hetzner | No SCCs; US/Singapore transfers rest on customer consent when picking the location. No change-notice subscription. | Use EU locations only; ask how sub-processor changes are announced |
 | AWS | No imprint page; entity details only on the marketing-entities page. Bedrock keeps all Claude Fable 5 / 5.1 traffic for 30 days (abuse detection) | Confirm entity from the invoice; check Fable use and the Enterprise Frontier Safeguards program |
+| Verda | No legal notice; the terms still name "DataCrunch Oy" (now Verda Cloud Oy); sub-processor list loads only in a browser | Use the current entity name; check FLUX inference (BFL, EU & US) if used |
 | Mailjet, Microsoft Azure, Google Cloud | Legal notice is for a different group entity (Mailjet GmbH; Microsoft Deutschland GmbH) or a contracting-entity page | Confirm our contracting entity from the signed agreement |
 
 ## Document versions
@@ -79,4 +81,5 @@ These are the dates shown on each document as of 2026-10-29, so we can spot chan
 | Mistral AI | 2026-09-03 | 2026-09-25 | 2026-07-27 | Not shown (browser only) |
 | OpenAI | Not shown (blocked) | 2026-01-01 (v.010126) | 2026-01-01 (v.010126) | 2026-10-14 (per search results) |
 | Scaleway | Not shown (blocked) | 2026-04-07 (GTS and AI conditions) | 2024-06-01 | Not shown (blocked) |
+| Verda | Not shown ("Last updated" blank) | 2025-09-30 (incl. Data Processing Terms) | 2025-09-30 (in terms) | Not dated |
 | Staan | June 2026 | Not public | Not public | June 2026 (in privacy policy) |
